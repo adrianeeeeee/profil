@@ -8,15 +8,23 @@
 </head>
 <body>
     <h1>Adrian Farrel</h1>
-    <div class="card w-96 bg-base-100 shadow-xl image-full">
-  <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
-  <div class="card-body">
-    <h2 class="card-title">Shoes!</h2>
-    <p>If a dog chews shoes whose shoes does he choose?</p>
-    <div class="card-actions justify-end">
-      <button class="btn btn-primary">Buy Now</button>
+<div class="navbar bg-base-300 rounded-box">
+  <div class="flex-1 px-2 lg:flex-none">
+    <a class="text-lg font-bold">daisyUI</a>
+  </div> 
+  <div class="flex justify-end flex-1 px-2">
+    <div class="flex items-stretch">
+      <a class="btn btn-ghost rounded-btn">Button</a>
+      <div class="dropdown dropdown-end">
+        <label tabindex="0" class="btn btn-ghost rounded-btn">Dropdown</label>
+        <ul tabindex="0" class="menu dropdown-content z-[1] p-2 shadow bg-base-100 rounded-box w-52 mt-4">
+          <li><a>Animre</a></li> 
+          <li><a>Manga</a></li>
+        </ul>
+      </div>
     </div>
   </div>
+</div>
     <script src="https://cdn.tailwindcss.com"></script>
 
 </body>
